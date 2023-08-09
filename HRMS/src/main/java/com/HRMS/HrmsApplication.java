@@ -10,7 +10,7 @@ public class HrmsApplication {
 	
 	public static void main(String[] args) {
 		DatabaseCleanupTask.DatabaseCleanup(); //Database Cleanup
-		SpringApplication.run(HrmsApplication.class, args);
+		SpringApplication.run(HrmsApplication.class, args); //COmment for check
 		
 	}
 
